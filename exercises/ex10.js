@@ -8,6 +8,6 @@ while (x >= 1) {
 }
 
 */
-for (x = 9; x >= 1; x--) {
+for (let x = 9; x >= 1; x--) {
   console.log("hello " + x);
 }
