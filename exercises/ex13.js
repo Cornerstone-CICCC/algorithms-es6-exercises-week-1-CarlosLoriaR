@@ -9,3 +9,8 @@ A factorial is calculated by multiplying a number by all the numbers below it. F
 
 Save your final answer in a variable called solution and print it to the console.
 */
+let number = 1;
+for (let x = 1; x <= 12; x++) {
+    number *= x;
+}
+console.log(number);
